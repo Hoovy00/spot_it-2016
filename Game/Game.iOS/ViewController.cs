@@ -52,9 +52,9 @@ namespace Game.iOS
 				var contentSearchPaths = new List<string> () { "Fonts", "Sounds" };
 				CCSizeI viewSize = gameView.ViewSize;
 
-				int width = 1024;
-				int height = 768;
-				
+				var width = (int)View.Bounds.Width;
+				var height = (int)View.Bounds.Height;
+
 				// Set world dimensions
 				gameView.DesignResolution = new CCSizeI (width, height);
 

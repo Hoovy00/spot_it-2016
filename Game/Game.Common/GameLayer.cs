@@ -6,7 +6,8 @@ namespace spot_it
 {
 	public class GameLayer : CCLayerColor
 	{
-		public GameLayer () : base (CCColor4B.AliceBlue)
+		public GameLayer ()
+			: base (CCColor4B.Black)
 		{
 			// Load and instantate your assets here
 
